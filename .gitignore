@@ -4,3 +4,6 @@
 .tox/
 build/
 dist/
+
+env/
+.eggs/

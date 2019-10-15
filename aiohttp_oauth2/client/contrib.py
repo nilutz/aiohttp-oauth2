@@ -28,3 +28,9 @@ twitter = partial(
     authorize_url="https://api.twitter.com/oauth/authorize",
     token_url="https://api.twitter.com/oauth2/token",
 )
+
+dataporten = partial(
+    oauth2_app,
+    authorize_url="https://auth.dataporten.no/oauth/authorization",
+    token_url="https://auth.dataporten.no/oauth/token",
+)
